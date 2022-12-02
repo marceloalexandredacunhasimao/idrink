@@ -5,7 +5,7 @@ import Button from './Button';
 
 function CheckoutAddress({ totalPrice, arrayOfProducts }) {
   const [address, setAddress] = useState('');
-  const [number, setNumber] = useState(0);
+  const [number, setNumber] = useState('');
   const [sellers, setSellers] = useState([]);
   const [seller, setSeller] = useState({});
   const history = useHistory();
@@ -59,7 +59,7 @@ function CheckoutAddress({ totalPrice, arrayOfProducts }) {
     }
   };
 
-  const isNotValidAdress = () => address.length === 0 || number === 0;
+  const isNotValidAdress = () => address.length === 0 || number.length === 0;
 
   return (
     <>
