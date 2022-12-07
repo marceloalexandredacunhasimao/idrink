@@ -1,5 +1,17 @@
 # idrink - App de delivery
 
+## Fluxo do cliente
+
+![Fluxo cliente](https://github.com/marceloalexandredacunhasimao/idrink/blob/main/images/fluxo-do-cliente.gif)
+
+## Fluxo do vendedor
+
+![Fluxo vendedor](https://github.com/marceloalexandredacunhasimao/idrink/blob/main/images/fluxo-do-vendedor.gif)
+
+## Fluxo do administrador
+
+![Fluxo administrador](https://github.com/marceloalexandredacunhasimao/idrink/blob/main/images/fluxo-do-administrador.gif)
+
 ## Sobre o projeto
 
 O idrink é um projeto Full-Stack que foi feito em grupo, nele foi implementado tando o Front-End quanto o Back-End. O idrink é um app de delivery de uma distribuidora de bebidas que apresenta as seguintes funcionalidades:
@@ -8,9 +20,9 @@ O idrink é um projeto Full-Stack que foi feito em grupo, nele foi implementado 
 
 O usuário administrador quando faz login tem acesso a uma tela em que é possível cadastrar ou excluir usuários de qualquer tipo.
 
-O usuário cliente, ao fazer login, acessa uma tela de produtos que podem ser adicionados a um carrinho, sendo que qualquer quantidade de qualquer produto pode ser adicionada. Após finalizar a compra e enviar os produtos para o carrinho, o usuário é direcionado para uma página em que ele pode concluir o pedido depois de selecionar o vendedor e digitar o endereço para envio. O cliente também tem acesso à página de pedidos, onde é possível ver todos os seus pedidos e clicar em um para visualização, sendo assim possível marcar aqueles que estiverem com estatus "em trânsito" como entregue.
+O usuário cliente, ao fazer login, acessa uma tela de produtos que podem ser adicionados a um carrinho, sendo que qualquer quantidade de qualquer produto pode ser adicionada. Após finalizar a compra e enviar os produtos para o carrinho, o usuário é direcionado para uma página em que ele pode concluir o pedido depois de selecionar o vendedor e digitar o endereço para envio. O cliente também tem acesso à página de pedidos, onde é possível ver todos os seus pedidos e clicar em um para visualização, sendo assim possível marcar aqueles que estiverem com status "em trânsito" como entregue.
 
-O usuário vendedor tem acesso à tela de pedidos depois de fazer login, nela ele pode ver todos os pedidos que ele vendeu e clicar em um para ir para uma tela do respectivo pedido, de modo que nessa segunda tela ele pode mudar o estatus do pedido, 
+O usuário vendedor tem acesso à tela de pedidos depois de fazer login, nela ele pode ver todos os pedidos que ele vendeu e clicar em um para ir para uma tela do respectivo pedido, de modo que nessa segunda tela ele pode mudar o status do pedido, 
 preparando-o e enviando-o, sempre nessa ordem.
 
 ## Tecnologias utilizadas
